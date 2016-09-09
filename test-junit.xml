@@ -1,0 +1,19 @@
+<testsuites>
+  <testsuite failures="0"
+             tests="3"
+             errors="0"
+             name="maintest_pl"
+             time="0.0412030220031738">
+    <testcase time="0.0378940105438232" name="(init)" />
+    <testcase time="0.00124692916870117" name="1 - use test;"></testcase>
+    <testcase time="0.000379085540771484" name="2 - First Iteration"></testcase>
+    <testcase name="3 - Second Iteration" time="0.000396966934204102"></testcase>
+    <testcase name="(teardown)" time="0.00128602981567383" />
+    <system-out><![CDATA[1..3
+ok 1 - use test;
+ok 2 - First Iteration
+ok 3 - Second Iteration
+]]></system-out>
+    <system-err></system-err>
+  </testsuite>
+</testsuites>
